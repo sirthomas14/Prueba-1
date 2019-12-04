@@ -1,19 +1,54 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-    <title>Test</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="script.js"></script>
+<meta charset="UTF-8">
+<title>ado parcial_1_3603 </title>
+<style>
+#BarraHerramientas {
+padding: 20px 0;
+border: 5px;
+border-style: solid;
+border-color: purple;
+display: grid;
+}
+#ContenidoSecundario {
+width: 100px;
+border-color: green;
+border-style: solid;
+width: 20%;
+height: 300px;
+float: left;
+}
+#SubBarraDeHerramientas {
+padding: 20px 0;
+border-color: pink;
+border-style: solid;
+float: right;
+height: 50px;
+width: 79%;
+}
+#Contenedor {
+border-color: purple;
+border-style: solid;
+text-align: center;
+
+}
+
+
+
+
+</style>
 </head>
 
-<body onload={onLoad()}>
-    <table class="container">
-        <tr>
-            <td>Nombre:</td>
-            <td><input type="text" id="text" /></td>
-            <td><button onclick="enviar()">Enviar</button></td>
-        </tr>
-    </table>
+<body>
+
+
+
+<div id="Contenedor">
+<div id="BarraHerramientas">Barra Herramientas</div>
+<div id="ContenidoSecundario">Contenido Secundario</div>
+<div id="SubBarraDeHerramientas">Sub Barra De Herramientas</div>
+</div>
 </body>
 
 </html>
